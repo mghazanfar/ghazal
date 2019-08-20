@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Switches example</p>
+        <p>Multilpe Switches example handled with single state</p>
         <Switch
           checked={switchState.includes('A')}
           onChange={e => handleChange('A', e)}
